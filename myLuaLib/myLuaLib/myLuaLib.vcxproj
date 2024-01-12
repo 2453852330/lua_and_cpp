@@ -72,8 +72,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Program Files %28x86%29\Lua\5.1\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Program Files %28x86%29\Lua\5.1\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)\lua_lib\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\lua_lib\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
