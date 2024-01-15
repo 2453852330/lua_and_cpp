@@ -27,12 +27,18 @@
     <ClCompile Include="base_test_9_16.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="lua_csdn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="base_header.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="base_test_9_16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lua_csdn.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

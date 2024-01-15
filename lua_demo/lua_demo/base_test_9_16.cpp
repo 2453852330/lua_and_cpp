@@ -1,11 +1,17 @@
 #include "base_test_9_16.h"
 
 
-typedef struct People
+typedef struct A
 {
-	std::string name;
+	int count;
 	int age;
-}FPeople;
+}FA;
+
+typedef struct B
+{
+	int count;
+	int age;
+}FB;
 
 
 
@@ -15,13 +21,6 @@ void test_09()
 	luaL_openlibs(L);
 
 	// luaL_newmetatable(L, "People");
-
-
-	printf("string size = %d | int size = %d | FPeople size = %d \n", sizeof(std::string), sizeof(int),sizeof(FPeople));
-
-	FPeople* pPeople = (FPeople*)lua_newuserdata(L, sizeof(FPeople));
-
-
 
 
 	
