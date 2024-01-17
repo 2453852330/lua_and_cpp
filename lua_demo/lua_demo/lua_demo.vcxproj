@@ -149,6 +149,8 @@
     <ClCompile Include="lua_class.cpp" />
     <ClCompile Include="lua_csdn.cpp" />
     <ClCompile Include="lua_demo.cpp" />
+    <ClCompile Include="lua_other.cpp" />
+    <ClCompile Include="lua_template.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="base_header.h" />
@@ -156,6 +158,8 @@
     <ClInclude Include="lua_adv.h" />
     <ClInclude Include="lua_class.h" />
     <ClInclude Include="lua_csdn.h" />
+    <ClInclude Include="lua_other.h" />
+    <ClInclude Include="lua_template.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
