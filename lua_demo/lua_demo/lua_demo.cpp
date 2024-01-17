@@ -1,7 +1,7 @@
 #pragma once
 #include "base_test_1_8.h"
-#include "base_test_9_16.h"
 #include "lua_csdn.h"
+#include "lua_adv.h"
 
 
 void print_line()
@@ -12,7 +12,7 @@ void print_line()
 
 int main()
 {
-    CSDN::csdn_02();
+    CT::adv_03();
 
     return 1;
 }
