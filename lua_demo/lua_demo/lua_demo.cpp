@@ -2,17 +2,14 @@
 #include "base_test_1_8.h"
 #include "lua_csdn.h"
 #include "lua_adv.h"
+#include "lua_class.h"
 
 
-void print_line()
-{
-    printf("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n");
-}
 
 
 int main()
 {
-    CT::adv_03();
+    LUA_CLASS::lua_class_02();
 
     return 1;
 }

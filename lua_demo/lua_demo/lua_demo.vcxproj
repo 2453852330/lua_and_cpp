@@ -146,6 +146,7 @@
     <ClCompile Include="base_test_1_8.h" />
     <ClCompile Include="HelperLib.cpp" />
     <ClCompile Include="lua_adv.cpp" />
+    <ClCompile Include="lua_class.cpp" />
     <ClCompile Include="lua_csdn.cpp" />
     <ClCompile Include="lua_demo.cpp" />
   </ItemGroup>
@@ -153,6 +154,7 @@
     <ClInclude Include="base_header.h" />
     <ClInclude Include="HelperLib.h" />
     <ClInclude Include="lua_adv.h" />
+    <ClInclude Include="lua_class.h" />
     <ClInclude Include="lua_csdn.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
